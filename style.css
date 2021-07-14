@@ -109,3 +109,61 @@
      position: relative;
      left: 125px;
  }
+
+ /* --------------
+ Media Queries
+       --------- */
+/* Mobile devices */
+
+@media only screen and (max-width:688px) {
+    .header{
+        position: absolute;
+        width: 360px;
+        height: 695px;
+        margin-left: 80px;
+    }
+    .p-copa{
+        position: absolute;
+        width: 278px;
+        height: 138px;
+        left: -86px;
+        top: -56px;
+        font-size: 36px;
+        line-height: 50px
+    }
+    .header-a a{
+        padding: 10px 24px;
+
+        position: absolute;
+        width: 120px;
+        height: 44px;
+        left: -70px;
+        top: 150px;
+    }
+    .h-banner img{
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        left: 70px;
+        top: 450px;
+    }
+    /* -------- main------- */
+    .players{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        margin-top: 15px;
+        margin-left: 50px;
+        position: absolute;
+        top: 700px;
+    }
+    /* --------footer---------- */
+
+    .football{
+        position: relative;
+        left: 50px;
+        top: 7000px;
+    }
+
+}
